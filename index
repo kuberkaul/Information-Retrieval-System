@@ -1,0 +1,7 @@
+#!/bin/sh
+export PYTHONPATH=$PYTHONPATH:$PWD/nltk-2.0.3:$PWD/PyYAML-3.1:$PWD:$HOME
+if [ $# -ne 1 ]; then
+        echo "need exactly one paramater :  path of crainfield documents "
+else
+        python index.py $@
+fi

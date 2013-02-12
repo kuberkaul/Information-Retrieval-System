@@ -1,0 +1,4 @@
+#!/bin/sh
+./install1
+./install1
+export PYTHONPATH=$PYTHONPATH:$PWD/nltk-2.0.3:$PWD/PyYAML-3.1:$PWD:$HOME
